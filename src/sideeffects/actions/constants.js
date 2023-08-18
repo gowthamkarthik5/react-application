@@ -1,0 +1,2 @@
+export const SET_USER_DATA = 'SET_USER_DATA'
+export const FETCH_USER_DATA = 'FETCH_USER_DATA'

@@ -1,0 +1,20 @@
+
+.mast-head {
+    background-color: black;
+}
+
+.navbar-brand, .nav-link {
+    color: white !important;
+}
+
+.navbar-collapse {
+    flex-direction: row-reverse;
+}
+
+.dropdown-menu[data-bs-popper] {
+    left: -95% !important;
+}
+
+.navbar-toggler {
+    background-color: wheat !important;
+}

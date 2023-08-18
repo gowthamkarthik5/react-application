@@ -1,13 +1,26 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { BrowserRouter } from 'react-router-dom';
+
+import { Provider } from 'react-redux';
+import store from './sideeffects/store';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Header from './component/header/Header'
+import Footer from './component/footer/Footer'
+import RouteConfig from './component/routes/RouteConfig'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <Provider store={store}>
+      <BrowserRouter>
+        <Header />
+        <RouteConfig />
+        <Footer />
+      </BrowserRouter>
+    </Provider>
   </React.StrictMode>
 );
 

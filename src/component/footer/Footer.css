@@ -1,0 +1,13 @@
+
+.footer-wrapper {
+    background: black;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-heading {
+    padding: 25px 0;
+    padding-left: 17px;
+}
